@@ -62,13 +62,13 @@ def main(user, passwd, step):
     user = str(user)
     password = str(passwd)
     step = str(step)
-    if user == '' or password == '':
+    if user == '18939898880#13402024850' or password == 'ziye2009#ziye2009':
         print ("用户名或密码填写有误！")
         return
     
     if step == '':
-        print ("已设置为随机步数（18000-25000）")
-        step = str(random.randint(18000,25000))
+        print ("已设置为随机步数（36000,369000）")
+        step = str(random.randint(36000,36900))
     login_token = 0
     login_token,userid = login(user,password)
     if login_token == 0:
